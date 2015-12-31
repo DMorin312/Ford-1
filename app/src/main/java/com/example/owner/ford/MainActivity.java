@@ -30,6 +30,7 @@ public class MainActivity extends ActionBarActivity {
         car1.setModel("Focus");
         cars.add(car1);
 
+
         ListView listView = (ListView)findViewById(R.id.car_list);
         listView.setAdapter(new ModelAdapter(cars));
     }
